@@ -1,24 +1,24 @@
-// content.js – veškerý textový obsah stránky (čistá data)
+// content.js – Kompletní lokalizovaný obsah stránky se zaměřením na high-end web design
 
 export default {
     nav: {
-        logo: "VICS",
+        logo: "Ruzicka",
         links: [
-            { href: "#about", text: "About" },
-            { href: "#work", text: "Work" },
-            { href: "#services", text: "Services" },
-            { href: "#contact", text: "Contact" },
+            { href: "#about", text: "Vize" },
+            { href: "#work", text: "Projekty" },
+            { href: "#services", text: "Expertíza" },
+            { href: "#contact", text: "Kontakt" },
         ],
     },
     loading: {
-        text: "LOADING",
+        text: "INITIALIZING",
     },
     hero: {
-        label: "Visual Interactive Creative Studio",
-        heading: "RUZICKA JAKUB",
+        label: "Visual & Interactive Fullstack Studio",
+        heading: "JAKUB RŮŽIČKA",
         subheading:
-            "Crafting immersive digital ecosystems that redefine the boundaries of motion and performance.",
-        button: "Protlačit se",
+            "Budujeme imerzivní digitální ekosystémy, které definují nové hranice interakce, pohybu a špičkového výkonu.",
+        button: "Objevit tvorbu",
         scrollHint: "Scroll",
     },
     marquee: {
@@ -31,7 +31,7 @@ export default {
             "Výkon",
             "Optimalizace",
             "Přesnost",
-            "Latence",
+            "Nulová Latence",
             "Architektura",
             "Kontrola",
             "Logika",
@@ -44,34 +44,34 @@ export default {
         ],
     },
     about: {
-        badge: "Who We Are",
-        heading: "The New<br>Standard",
+        badge: "Náš Manifest",
+        heading: "Nový<br>Standard",
         text1:
-            "In 2026, performance is the new luxury. We combine WebGPU shaders with GSAP to ensure every pixel moves with intent and zero latency. Our approach merges art with engineering.",
+            "V roce 2026 je výkon novým synonymem pro luxus. Kombinujeme WebGPU shadery s pokročilou GSAP animací, aby se každý pixel hýbal s jasným záměrem a nulovým zpožděním. Propojujeme čisté inženýrství s digitálním uměním.",
         text2:
-            "We don't just build websites—we craft digital experiences that breathe, react, and captivate. Every scroll tells a story.",
-        badges: ["Performance", "Motion", "Design"],
+            "Nestavíme pouze weby – tvoříme digitální zážitky, které dýchají, reagují a fascinují. Každý scroll u nás vypráví příběh vaší značky.",
+        badges: ["Výkon", "Pohyb", "Design"],
     },
     stats: {
-        heading: "Impact in Numbers",
+        heading: "Dopad v číslech",
         subheading:
-            "Delivering measurable results through cutting-edge motion design.",
+            "Dosahujeme měřitelných výsledků skrze špičkový motion design a čistý kód.",
         cards: [
-            { value: 13, label: "Projects" },
-            { value: 98, label: "Satisfaction" },
-            { value: 0, label: "Awards" },
-            { value: 60, label: "FPS Average" },
+            { value: 13, label: "Unikátních projektů" },
+            { value: 98, label: "Spokojenost klientů %" },
+            { value: 0, label: "Kompromisů" },
+            { value: 60, label: "Stabilních FPS" },
         ],
     },
     work: {
-        badge: "Selected Work",
-        heading: "Featured<br>Projects",
-        viewAll: "View All",
+        badge: "Vybraná tvorba",
+        heading: "Důkaz<br>Konceptu",
+        viewAll: "Zobrazit vše",
         projects: [
             {
                 image: "https://picsum.photos/600/400?random=11",
                 category: "Branding",
-                title: "Neon Dreams",
+                title: "Neonové Sny",
             },
             {
                 image: "https://picsum.photos/600/400?random=12",
@@ -85,109 +85,109 @@ export default {
             },
             {
                 image: "https://picsum.photos/600/400?random=14",
-                category: "3D",
-                title: "Liquid Metal",
+                category: "3D Rendering",
+                title: "Tekutý Kov",
             },
         ],
     },
     services: {
-        badge: "What We Do",
-        heading: "Services &<br>Expertise",
+        badge: "Co umíme",
+        heading: "Služby &<br>Expertíza",
         description:
-            "We specialize in creating high-performance digital experiences that push the boundaries of what's possible on the web.",
+            "Specializujeme se na vývoj vysoce výkonných digitálních řešení, která posouvají hranice toho, co je na moderním webu možné.",
         features: [
             {
                 title: "Motion Design",
                 description:
-                    "Micro-interactions, page transitions, and scroll-driven animations that bring interfaces to life.",
+                    "Mikrointerakce, plynulé přechody stránek a animace řízené scrollem, které vdechnou rozhraní život.",
             },
             {
-                title: "WebGPU Shaders",
+                title: "WebGPU Shadery",
                 description:
-                    "Custom GPU-accelerated visual effects that run smoothly at 60fps on modern browsers.",
+                    "Vlastní vizuální efekty akcelerované grafickou kartou, běžící plynule na 60fps v každém moderním prohlížeči.",
             },
             {
-                title: "3D Experiences",
+                title: "3D Zážitky",
                 description:
-                    "Immersive WebGL and Three.js environments that captivate and engage users.",
+                    "Imerzivní prostředí postavená na WebGL a Three.js, která dokážou uživatele plně pohltit a zapojit.",
             },
             {
-                title: "Performance Optimization",
+                title: "Optimalizace výkonu",
                 description:
-                    "Ensuring every animation runs at buttery smooth framerates with zero jank.",
+                    "Zajišťujeme, aby každá animace a interakce běžela s matematickou přesností bez jediného zaseknutí.",
             },
         ],
     },
     horizontal: {
-        badge: "Horizontal Scroll",
-        heading: "Explore<br>Our Work",
+        badge: "Portfolio",
+        heading: "Prozkoumejte<br>detaily",
         cards: [
             {
                 image: "https://picsum.photos/600/400?random=1",
                 year: "2025",
-                title: "Abstract Visions",
+                title: "Abstraktní Vize",
             },
             {
                 image: "https://picsum.photos/600/400?random=2",
                 year: "2025",
-                title: "Color Theory",
+                title: "Teorie Barev",
             },
             {
                 image: "https://picsum.photos/600/400?random=3",
                 year: "2025",
-                title: "Light Study",
+                title: "Studie Světla",
             },
             {
                 image: "https://picsum.photos/600/400?random=4",
                 year: "2025",
-                title: "Fluid Motion",
+                title: "Fluidní Pohyb",
             },
             {
                 image: "https://picsum.photos/600/400?random=5",
                 year: "2025",
-                title: "Neon Grid",
+                title: "Neonový Grid",
             },
             {
                 image: "https://picsum.photos/600/400?random=6",
                 year: "2025",
-                title: "Abstract Visions",
+                title: "Geometrický Bod",
             },
             {
                 image: "https://picsum.photos/600/400?random=7",
                 year: "2025",
-                title: "Color Theory",
+                title: "Organické Formy",
             },
             {
                 image: "https://picsum.photos/600/400?random=8",
                 year: "2025",
-                title: "Light Study",
+                title: "Digitální Šum",
             },
             {
                 image: "https://picsum.photos/600/400?random=9",
                 year: "2025",
-                title: "Fluid Motion",
+                title: "Syntetický Růst",
             },
             {
                 image: "https://picsum.photos/600/400?random=10",
                 year: "2025",
-                title: "Neon Grid",
+                title: "Kvantová Vlna",
             },
         ],
     },
     quote: {
-        text: "Design is not just what it looks like and feels like. Design is how it works.",
+        text: "Design není jen to, jak věci vypadají a působí. Design je to, jak fungují.",
         author: "Steve Jobs",
-        authorTitle: "Co-founder, Apple Inc.",
+        authorTitle: "Spoluzakladatel, Apple Inc.",
     },
     cta: {
-        heading: "Let's Create<br>Together",
-        text: "Ready to elevate your digital presence? Let's build something extraordinary.",
-        button: "Get in Touch",
+        heading: "Pojďme tvořit<br>společně",
+        text: "Jste připraveni pozvednout svou digitální identitu na novou úroveň? Pojďme postavit něco výjimečného.",
+        button: "Zahájit projekt",
     },
     footer: {
-        logo: "EMD",
+        logo: "JR",
         year: "2026",
-        bigText: "Future",
+        bigText: "Budoucnost",
         social: [
             { href: "#", text: "Twitter" },
             { href: "#", text: "Dribbble" },
